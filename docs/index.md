@@ -3,22 +3,18 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "个人博客搭建"
+  tagline: 基于UniCloud搭建的前后端分离的个人博客系统
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 💗 blog  🔗
+      link: /markdown-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🧰 准备
+    details: uniCloud 账号 + 云函数 + 数据库
+  - title: 🏃 开始
+    details: 部署 uniCloud 项目 + 配置数据库 + 部署云函数
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
