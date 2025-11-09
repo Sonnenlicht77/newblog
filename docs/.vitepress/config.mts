@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '需求 & 知识', link: '/pre_need/pre_need' },
+      { text: '知识 & 需求', link: '/pre_need/pre_need' },
       { text: '文档', link: '/blog_docs' },
       { text: '错误处理', link: '/errs' }
     ],
@@ -17,8 +17,9 @@ export default defineConfig({
       '/pre_need': {
         base: '/pre_need',
         items: [
-          { text: '需求分析', link: '/pre_need' },
-          { text: '相关知识', link: '/related_knowledge' }
+          { text: 'uniCloud', link: '/pre-uniCloud' },
+          { text: '相关知识', link: '/related_knowledge' },
+          { text: '需求分析', link: '/pre_need' }
         ]
       },
       '/blog_docs': {
