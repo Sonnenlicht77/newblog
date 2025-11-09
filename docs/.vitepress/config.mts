@@ -37,5 +37,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://sonnenlicht77.github.io/' }
     ]
+  },
+  markdown:{
+    image: {
+      lazyLoading: true
+    }
   }
 })
